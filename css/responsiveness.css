@@ -1,0 +1,27 @@
+@media (max-width: 767px) {
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-img {
+    height: 500px;
+  }
+
+  #about {
+    padding: none;
+  }
+}
+
+@media screen and (max-width: 968px) and (min-width: 520px) {
+  .aboutus-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .aboutus-container > #row1 {
+    flex-direction: column;
+  }
+
+  .aboutus-container > #row2 {
+    flex-direction: column-reverse;
+  }
+}
